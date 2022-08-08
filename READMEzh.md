@@ -1,131 +1,182 @@
-# SeedCrackerX [![Github 所有版本](https://img.shields.io/github/downloads/19MisterX98/SeedCrackerX/total.svg)]
-PS:请以后更新翻译的同学参照en_us.json改的地方并在同样的位置添加，让后人修改时更方便。
-## Discord
+# SeedCrackerX [![Github All Releases](https://img.shields.io/github/downloads/19MisterX98/SeedCrackerX/total.svg)]
 
-[Discord](https://discord.gg/JRmHzqQYfp)
+## Readme Language
 
-## 安装
+[中文](./READMEzh.md) [Русский](./READMEru.md)
 
- ### 官方启动器/其他启动器
+## I'm active on:
 
-  下载并安装[Fabric](https://fabricmc.net/use/).
+- [My Discord](https://discord.gg/JRmHzqQYfp)
+- [Youtube](https://www.youtube.com/channel/UCby9ZxEjJCqmccQGF3GSYlA)
 
- ### MultiMC
- 
-  添加一个新的Minecraft实例, 在实例选项中点击 "安装Fabric".
+## Installation
 
- ### 模组安装
- 
-  下载 SeedCrackerX 最新[发布版](https://github.com/19MisterX98/SeedCrackerX/releases)
-  
-  下载 Mod Menu 最新[发布版](https://www.curseforge.com/minecraft/mc-mods/modmenu/files)
-  
-  下载 Fabric API 最新[发布版](https://www.curseforge.com/minecraft/mc-mods/fabric-api/files)
-  
-  
-  把.jar文件放在你的mods目录下, 或者是%appdata%/.minecraft/mods/文件夹, 用于官方启动器, 或者是你自己的MultiMC实例文件夹.
-  
- #### 可选
-  
-  下载 Multiconnect 最新[发布版](https://github.com/Earthcomputer/multiconnect/releases) 来连接到低版本的MC服务器
-  
-## 使用方法
-### 1.17.X及以下
+Download and install the [fabric mod loader](https://fabricmc.net/use/)
 
-在这个世界上跑来跑去，直到Mod找到一个地牢。当Mod找到一个地牢后，破解过程就会自动开始。如果它没有获取世界种子，你可能需要找另一个地牢。此Mod也支持通过结构和黑曜石柱和诡异菌来破解种子。
+Download the latest [release or pre-release](https://github.com/19MisterX98/SeedCrackerX/releases) of SeedCrackerX
 
-### 1.18.X及未来版本
+put the .jar files in your mod directory, either %appdata%/.minecraft/mods/ folder for the vanilla launcher or your own MultiMC instance folder.
 
-地牢破解，诡异菌破解不再起作用。
+#### Optional
 
-通过“/seed gui”进入配置菜单并确保绿宝石矿石、末地折跃门、生物群系、沙漠水井和诡异菌被禁用，因为它们没有更新并且可能提供错误的数据。
+Download the latest [release](https://github.com/Earthcomputer/multiconnect/releases) of Multiconnect to connect to servers on lower MC versions
 
-为了破解你现在需要找到下列结构中至少 5 个：
+## Database
 
-沙漠神殿、丛林神殿、女巫小屋、沉船、雪屋、掠夺者前哨站。
+Since the mod is used by many people, I have decided to create a Google sheet for server seeds. If you enable the database option in the config gui the mod will send cracked seeds from 10+ player servers directly to the Google sheet.
 
-任何组合都是有效的。例如：3 艘沉船、1 座金字塔和 1 座冰屋。您可以使用“/seed data bits”查看您的进程。
+[The Sheet](https://docs.google.com/spreadsheets/d/1tuQiE-0leW88em9OHbZnH-RFNhVqgoHhIt9WQbeqqWw/edit?usp=sharing)
 
-当结构周围有轮廓时，Mod就会找到结构。在你得到足够的数据后，破解过程会自动开始。需要 1-5 分钟。
-  
-  ### 支持的结构
-    - Ocean Monument(海底神殿)
-    - End City(末地城)
-    - Buried Treasure(埋藏的宝藏)
-    - Desert Pyramid(沙漠神殿)
-    - Jungle Temple(丛林神庙)
-    - Swamp Hut(沼泽小屋)
-    - Shipwreck(沉船)
-  
-  ### 支持的装饰
-    - Dungeon(地牢)
-    - End Gateway(地牢)
-    - Desert Well(沙漠水井)
-    - Emerald Ore(绿宝石矿石)
-    - Warped Fungus(诡异菌)
+## Usage
 
-## 命令（已废弃，请使用GUI）.
+### 1.17.X and below
 
-  这个mod的命令前缀是/seed.
-  
-  ### 渲染命令
-  -`/seed render outlines <ON/OFF/XRAY>`
-    
-  这个命令只影响到渲染器的反馈. 默认值是'XRAY', 通过方块来显示数据. 你可以将渲染模式设置为'ON', 以获得更标准的渲染效果.
-  
-  ### 搜索器命令
-  -`/seed finder type <FEATURE_TYPE> (ON/OFF)`
-  
-  -`/seed finder category (BIOMES/ORES/OTHERS/STRUCTURES) (ON/OFF)`
-  
-  这个命令用于禁用查找器, 以防你意识到数据是错误的. 例如, 在1.14中生成的地图有不同的装饰, 需要你在经过这些区块的时候禁用它们.
-  
-  -`/seed finder reload`
-  
-  再次搜索加已加载的区域
+Run around in the world until the mod finds a dungeon. After the mod found one the cracking process starts automatically. If it doesn't give you a world seed, you may want to find another dungeon.
 
-  ### 数据指令
+This mod also supports cracking the seed via:
+- [Structures and Endpillars](https://youtu.be/aUuPSZVPH8E?t=462)
+- [warped fungus](https://www.youtu.be/HKjwgofhKs4)
+
+### 1.18.X and Potentially Future Versions
+
+Dungeon cracking, fungus cracking don't work anymore.
+
+Go to the config menu via "/seed gui" and make sure that Emeralds, Gateways, Biomes, Desert wells and Warped fungi are disabled since they aren't updated and can give wrong data.
+
+For cracking, you now need to find 5 structures from the listed ones:\
+Desert pyramids, Jungle temples, Witch huts, Shipwrecks, Igloos, Pillager Outposts
+
+Any combination is valid. For example: 3 shipwrecks, 1 pyramid and 1 igloo. You can track your process with "/seed data bits" (look at the bits count for liftable structures) A structure is found when there is an outline around it. After you get enough, the cracking process starts automatically. This process takes around 1-5 mins. The mod may ask you to find additional structures after this. It's more likely to happen with fewer bits and structures of the same type. After reducing your structure seeds, the mod will brute force your world seed via dungeon positions or hashed seed.
+
+  ### Supported Structures
+    - Ocean Monument
+    - End City
+    - Buried Treasure
+    - Desert Pyramid
+    - Jungle Temple
+    - Swamp Hut
+    - Shipwreck
+    - Igloo
+    - Pillager Outpost
+
+
+  ### Supported Decorators
+    - Dungeon
+    - End Gateway
+    - Desert Well
+    - Emerald Ore
+    - Warped Fungus
+
+## Commands
+
+  ### GUI Command
+  - `/seed gui`
+
+  Opens the config gui where you can modify settings like the server mc-version, all finders, database and rendermode. There are command alternatives for most of this, but they should'nt be used anymore.
+
+
+  ### Finder Reload Command
+  - `/seed finder reload`
+
+  Rescans the loaded Chunks to find structures that weren't found before.
+
+
+  ### Data Command
   - `/seed data clear`
-  
-  清除所有收集的数据而不是重新记录. 这对多世界的服务器很有用。
-  
+
+  Clears all the collected data without requiring a relog. This is useful for multi-world servers.
+
   - `/seed data bits`
-  
-  显示已经收集了多少比特的信息. 尽管这是一个近似值, 但它可以作为一个很好的参考来猜测什么时候应该开始进行暴力破解。
-  
-  ### 破解器指令
-  - `/seed cracker <ON/OFF>`
- 
-  完全启用或禁用MOD. 与其他命令不同的是, 这个效果在重载时仍然保持。
-  
+
+  Display how many bits of information have been collected. Normal bits are used for end pillar + structure cracking. Cracking starts at 32 bits. Lifting bits are used for liftable structure cracking. Cracking starts at 40 bits.
+
+  - `/seed data restore`
+
+  When you leave a world, the mod will save currently collected structure information in a file of the .minecraft/config directory. After rejoining, you can restore it with this command.
+
+
+
+  ### Debug Command
   - `/seed cracker debug`
 
-  显示调试信息
+  Additional info is shown
+
+
+  ### Database Command
+  - `/seed database`
+
+  Opens a [google sheet](https://docs.google.com/spreadsheets/d/1tuQiE-0leW88em9OHbZnH-RFNhVqgoHhIt9WQbeqqWw/edit?usp=sharing) that is maintained by the mod
+
+## Video Tutorials
+
+Neil's:
+- [1.15](https://youtu.be/1ChmLi9og8Q)
+- [1.16](https://youtu.be/aUuPSZVPH8E)
+
+Mine:
+- [Dungeon cracking & end pillar cracking](https://youtu.be/8ytfZ2MXosY)
+- [Nether cracking](https://youtu.be/HKjwgofhKs4)
+- [Structure cracking](https://www.youtu.be/UXVrBaOR8H0)
+
+
+## Setting up the Workspace
+
+-Clone the repository.
+
+-Run `gradlew genSources <idea|eclipse>`.
+
+## Building the Mod
+
+-Update the version in `build.gradle` and `fabric.mod.json`.
+
+-Run `gradlew build`.
+
+## API for other mods
+
+- Include seedcracker-api and jitpack in your build.gradle
   
-## 视频教程
+      repositories {
+          mavenCentral()
+          maven { url "https://jitpack.io" }
+      }
+      
+      dependencies {
+          implementation (include('com.github.19MisterX98.SeedcrackerX:seedcrackerx-api:master-SNAPSHOT')) {transitive = false}
+      }
 
-https://youtu.be/1ChmLi9og8Q
+- Add a class that implements the api interface
+  
+      package misterx.myMod.seedManagemnet.SeedCrackerEP
+      
+      import kaptainwutax.seedcrackerX.api.SeedCrackerAPI;
+      
+      public class SeedCrackerEP implements SeedCrackerAPI {
+          @Override
+          public void pushWorldSeed(long seed) {
+              //do something
+              Foo.bar(seed)
+          }
+      }
 
-https://youtu.be/8ytfZ2MXosY
+- Tell fabric.mod.json where your entrypoint is
+  
+      "entrypoints": {
+        "main": [...],
+        "client": [...],
+        "server": [...],
+        "seedcrackerx": [
+          "misterx.myMod.seedManagemnet.SeedCrackerEP"
+        ]
+      },
 
-## 设置工作区
+## Contributors
 
--克隆此仓库.
+[KaptainWutax](https://github.com/KaptainWutax) - Author
 
--运行 `gradlew genSources <idea|eclipse>`.
-
-## 编译此Mod
-
--在 `build.gradle` 和 `fabric.mod.json` 里更新版本.
-
--运行 `gradlew build`.
- 
-## 贡献者
-
-[KaptainWutax](https://github.com/KaptainWutax) - 原作者
-
-[neil](https://www.youtube.com/watch?v=aUuPSZVPH8E) - 视频教程
+[neil](https://www.youtube.com/watch?v=aUuPSZVPH8E) - Video Tutorial
 
 [Nekzuris](https://github.com/Nekzuris) - README
 
-[19MisterX98](https://www.youtube.com/channel/UCby9ZxEjJCqmccQGF3GSYlA) - 作者
+[19MisterX98](https://www.youtube.com/channel/UCby9ZxEjJCqmccQGF3GSYlA) - Author of this fork
+
+[farkon00](https://github.com/farkon00) - README in russian
