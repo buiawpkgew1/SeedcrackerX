@@ -1,144 +1,140 @@
 # SeedCrackerX [![Github All Releases](https://img.shields.io/github/downloads/19MisterX98/SeedCrackerX/total.svg)]
 
-## Readme Language
+## Моя активность:
 
-[中文](./READMEzh.md) [Русский](./READMEru.md)
+Загрузите и установите [загрузчик fabric](https://fabricmc.net/use/)
 
-## I'm active on:
+## Установка
 
-- [My Discord](https://discord.gg/JRmHzqQYfp)
-- [Youtube](https://www.youtube.com/channel/UCby9ZxEjJCqmccQGF3GSYlA)
+- [Дискорд](https://discord.gg/JRmHzqQYfp)
+- [Ютуб](https://www.youtube.com/channel/UCby9ZxEjJCqmccQGF3GSYlA)
 
-## Installation
+## База данных
 
-Download and install the [fabric mod loader](https://fabricmc.net/use/)
+Загрузите последний [релиз или пре-релиз](https://github.com/19MisterX98/SeedCrackerX/releases) SeedCrackerX
 
-Download the latest [release or pre-release](https://github.com/19MisterX98/SeedCrackerX/releases) of SeedCrackerX
+Поместите .jar файл в папку с модами, либо %appdata%/.minecraft/mods/ для ванильного лаунчера, либо папка модов вашей сборки в MultiMC.
 
-put the .jar files in your mod directory, either %appdata%/.minecraft/mods/ folder for the vanilla launcher or your own MultiMC instance folder.
+Загрузите последний [релиз](https://github.com/Earthcomputer/multiconnect/releases) Multiconnect для подключения к серверам на более старых версиях MC
 
-#### Optional
+#### Опционально
 
 Download the latest [release](https://github.com/Earthcomputer/multiconnect/releases) of Multiconnect to connect to servers on lower MC versions
 
-## Database
+## Использование
 
-Since the mod is used by many people, I have decided to create a Google sheet for server seeds. If you enable the database option in the config gui the mod will send cracked seeds from 10+ player servers directly to the Google sheet.
+Поскольку мод используется многими людьми, я решил создать google таблицу для серверных сидов. Если вы включите опцию базы данных в конфигурации, мод отправит найденные сиды для серверов с 10+ игроками непосредственно в google таблицу.
 
-[The Sheet](https://docs.google.com/spreadsheets/d/1tuQiE-0leW88em9OHbZnH-RFNhVqgoHhIt9WQbeqqWw/edit?usp=sharing)
+[Таблица](https://docs.google.com/spreadsheets/d/1tuQiE-0leW88em9OHbZnH-RFNhVqgoHhIt9WQbeqqWw/edit?usp=sharing)
 
-## Usage
+## Команды
 
-### 1.17.X and below
+### 1.17.X и ниже
 
-Run around in the world until the mod finds a dungeon. After the mod found one the cracking process starts automatically. If it doesn't give you a world seed, you may want to find another dungeon.
+Пробегитесь по миру, пока мод не найдёт сокровищницу (комнату со спаунером). После того как мод нашел одну из них, процесс поиска начнётся автоматически. Если это не дало вам сид мира, вы можете найти другую сокровищницу.
 
-This mod also supports cracking the seed via:
-- [Structures and Endpillars](https://youtu.be/aUuPSZVPH8E?t=462)
-- [warped fungus](https://www.youtu.be/HKjwgofhKs4)
+Поиск через сокровищницы и искажённые грибы больше не работает.
+- [структуры и башни в крае](https://youtu.be/aUuPSZVPH8E?t=462)
+- [искажённые грибы](https://www.youtu.be/HKjwgofhKs4)
 
-### 1.18.X and Potentially Future Versions
+### 1.18.X и потенциальные будущие версии
 
-Dungeon cracking, fungus cracking don't work anymore.
+Зайдите в меню конфигурации через "/seed gui" и убедитесь, что Emeralds, Gateways, Biomes, Desert wells и Warped fungi отключены, поскольку они не обновляются и могут выдавать неправильные данные.
 
-Go to the config menu via "/seed gui" and make sure that Emeralds, Gateways, Biomes, Desert wells and Warped fungi are disabled since they aren't updated and can give wrong data.
+Теперь для нахождения сида нужно найти 5 структур из перечисленных:\
+Пустынные храмы, храмы в джунглях, хижины ведьм, затонувшие корабли, иглу, аванпосты разбойников
 
 For cracking, you now need to find 5 structures from the listed ones:\
 Desert pyramids, Jungle temples, Witch huts, Shipwrecks, Igloos, Pillager Outposts
 
-Any combination is valid. For example: 3 shipwrecks, 1 pyramid and 1 igloo. You can track your process with "/seed data bits" (look at the bits count for liftable structures) A structure is found when there is an outline around it. After you get enough, the cracking process starts automatically. This process takes around 1-5 mins. The mod may ask you to find additional structures after this. It's more likely to happen with fewer bits and structures of the same type. After reducing your structure seeds, the mod will brute force your world seed via dungeon positions or hashed seed.
+Допустима любая комбинация структур. Например: 3 затонувших корабля, 1 пустынный храм и 1 иглу. Вы можете отслеживать свой прогресс с помощью "/seed data bits". Структура считается обнаруженной, когда вокруг неё есть контур. После того как вы набрали достаточное количество бит, процесс поиска начинается автоматически. Это займёт 1-5 минут После этого мод может попросить вас найти дополнительные структуры. Это, скорее всего, произойдет с малым количеством битов и структур одного типа. После сокращения ваших структурных сидов мод начнёт перебирать сиды мира с помощью позиций сокровищниц или хэшированных сидов.
 
-  ### Supported Structures
-    - Ocean Monument
-    - End City
-    - Buried Treasure
-    - Desert Pyramid
-    - Jungle Temple
-    - Swamp Hut
-    - Shipwreck
-    - Igloo
-    - Pillager Outpost
+  ### Графический интерфейс
+    - Подводная крепость
+    - Город Края
+    - Клад
+    - Пустынный храм
+    - Храм в джунглях
+    - Хижина ведьмы
+    - Затонувший корабль
+    - Иглу
+    - Аванпост разбойников
 
 
+  ### Поддерживаемые Декораторы
+    - Сокровищница
+    - Врата Края
+    - Колодец
+    - Изумрудная руда
+    - Искажённый гриб
 
-  ### Supported Decorators
-    - Dungeon
-    - End Gateway
-    - Desert Well
-    - Emerald Ore
-    - Warped Fungus
+## Туториалы на английском
 
-## Commands
-
-  ### GUI Command
+  Neil:
   - `/seed gui`
 
-  Opens the config gui where you can modify settings like the server mc-version, all finders, database and rendermode. There are command alternatives for most of this, but they should'nt be used anymore.
+  Открывает графический интерфейс, в котором вы можете изменить такие настройки, как MC версия сервера, средства поиска, база данных и режим отображения. Для большей части этого существуют альтернативные команды, но их более не следует использовать.
 
 
-
-  ### Finder Reload Command
+  ### Поисковик
   - `/seed finder reload`
 
-  Rescans the loaded Chunks to find structures that weren't found before.
+  Повторно сканирует загруженные чанки, чтобы найти структуры, которые не были найдены ранее.
 
 
-
-  ### Data Command
+  ### Данные
   - `/seed data clear`
 
-  Clears all the collected data without requiring a relog. This is useful for multi-world servers.
+  Очищает все собранные данные, не требуя переподключения к серверу. Это полезно для серверов с несколькими мирами.
 
   - `/seed data bits`
 
-  Display how many bits of information have been collected. Normal bits are used for end pillar + structure cracking. Cracking starts at 32 bits. Lifting bits are used for liftable structure cracking. Cracking starts at 40 bits.
+  Показывает количество собранных бит информации. Normal bits are used for end pillar + structure cracking. Cracking starts at 32 bits. Lifting bits are used for liftable structure cracking. Cracking starts at 40 bits.
 
   - `/seed data restore`
 
-  When you leave a world, the mod will save currently collected structure information in a file of the .minecraft/config directory. After rejoining, you can restore it with this command.
+  Когда вы покинете мир, мод сохранит собранную в данный момент информацию о структурах в директории .minecraft/config. После повторного подключения вы можете восстановить её с помощью этой команды.
 
 
 
-
-  ### Debug Command
+  ### Дебаг
   - `/seed cracker debug`
 
-  Additional info is shown
+  Показывает дополнительную информацию
 
 
-
-  ### Database Command
+  ### База данных
   - `/seed database`
 
-  Opens a [google sheet](https://docs.google.com/spreadsheets/d/1tuQiE-0leW88em9OHbZnH-RFNhVqgoHhIt9WQbeqqWw/edit?usp=sharing) that is maintained by the mod
+  Открывает [google таблицу](https://docs.google.com/spreadsheets/d/1tuQiE-0leW88em9OHbZnH-RFNhVqgoHhIt9WQbeqqWw/edit?usp=sharing), которая поддерживается модом
 
-## Video Tutorials
+## Настройка рабочего пространства
 
-Neil's:
+Мои:
 - [1.15](https://youtu.be/1ChmLi9og8Q)
 - [1.16](https://youtu.be/aUuPSZVPH8E)
 
-Mine:
+[KaptainWutax](https://github.com/KaptainWutax) - Автор
 - [Dungeon cracking & end pillar cracking](https://youtu.be/8ytfZ2MXosY)
 - [Nether cracking](https://youtu.be/HKjwgofhKs4)
 - [Structure cracking](https://www.youtu.be/UXVrBaOR8H0)
 
 
-## Setting up the Workspace
+## Сборка мода
 
--Clone the repository.
+[neil](https://www.youtube.com/watch?v=aUuPSZVPH8E) - Видео туториалы
 
--Run `gradlew genSources <idea|eclipse>`.
+Выполните `gradlew build`.
 
-## Building the Mod
+## API для других модов
 
--Update the version in `build.gradle` and `fabric.mod.json`.
+[19MisterX98](https://www.youtube.com/channel/UCby9ZxEjJCqmccQGF3GSYlA) - Автор форка
 
--Run `gradlew build`.
+[~~farkon00~~](https://github.com/farkon00) - перевод README на русский
 
-## API for other mods
+## Контрибуторы
 
-- Include seedcracker-api and jitpack in your build.gradle
+- Клонируйте репозиторий.
   
       repositories {
           mavenCentral()
@@ -149,7 +145,7 @@ Mine:
           implementation (include('com.github.19MisterX98.SeedcrackerX:seedcrackerx-api:master-SNAPSHOT')) {transitive = false}
       }
 
-- Add a class that implements the api interface
+- Выполните `gradlew genSources <idea|eclipse>`.
   
       package misterx.myMod.seedManagemnet.SeedCrackerEP
       
@@ -163,7 +159,7 @@ Mine:
           }
       }
 
-- Tell fabric.mod.json where your entrypoint is
+- Укажите в fabric.mod.json точку входа
   
       "entrypoints": {
         "main": [...],
