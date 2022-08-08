@@ -60,7 +60,6 @@ Any combination is valid. For example: 3 shipwrecks, 1 pyramid and 1 igloo. You 
     - Pillager Outpost
 
 
-
   ### Supported Decorators
     - Dungeon
     - End Gateway
@@ -76,12 +75,10 @@ Any combination is valid. For example: 3 shipwrecks, 1 pyramid and 1 igloo. You 
   Opens the config gui where you can modify settings like the server mc-version, all finders, database and rendermode. There are command alternatives for most of this, but they should'nt be used anymore.
 
 
-
   ### Finder Reload Command
   - `/seed finder reload`
 
   Rescans the loaded Chunks to find structures that weren't found before.
-
 
 
   ### Data Command
@@ -99,12 +96,10 @@ Any combination is valid. For example: 3 shipwrecks, 1 pyramid and 1 igloo. You 
 
 
 
-
   ### Debug Command
   - `/seed cracker debug`
 
   Additional info is shown
-
 
 
   ### Database Command
