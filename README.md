@@ -2,7 +2,7 @@
 
 ## Readme Language
 
-[中文](./READMEzh.md)
+[中文](Language/READMEzh.md)
 [Русский](./READMEru.md)
 
 ## I'm active on:
