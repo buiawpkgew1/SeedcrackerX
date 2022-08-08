@@ -1,17 +1,15 @@
 # SeedCrackerX [![Github All Releases](https://img.shields.io/github/downloads/19MisterX98/SeedCrackerX/total.svg)]
 
-## 語言選擇
+## Readme Language
 
-[中文](Language/READMEzh.md)
-
-[Русский](Language/READMEru.md)
+[中文](./READMEzh.md) [Русский](./READMEru.md)
 
 ## I'm active on:
 
-- [Discord](https://discord.gg/JRmHzqQYfp)
+- [My Discord](https://discord.gg/JRmHzqQYfp)
 - [Youtube](https://www.youtube.com/channel/UCby9ZxEjJCqmccQGF3GSYlA)
 
-## 安裝
+## Installation
 
 Download and install the [fabric mod loader](https://fabricmc.net/use/)
 
@@ -19,7 +17,7 @@ Download the latest [release or pre-release](https://github.com/19MisterX98/Seed
 
 put the .jar files in your mod directory, either %appdata%/.minecraft/mods/ folder for the vanilla launcher or your own MultiMC instance folder.
 
-#### 選項
+#### Optional
 
 Download the latest [release](https://github.com/Earthcomputer/multiconnect/releases) of Multiconnect to connect to servers on lower MC versions
 
@@ -31,7 +29,7 @@ Since the mod is used by many people, I have decided to create a Google sheet fo
 
 ## Usage
 
-### 1.17.X及以下
+### 1.17.X and below
 
 Run around in the world until the mod finds a dungeon. After the mod found one the cracking process starts automatically. If it doesn't give you a world seed, you may want to find another dungeon.
 
@@ -39,7 +37,7 @@ This mod also supports cracking the seed via:
 - [Structures and Endpillars](https://youtu.be/aUuPSZVPH8E?t=462)
 - [warped fungus](https://www.youtu.be/HKjwgofhKs4)
 
-### 1.18.X及未來版本
+### 1.18.X and Potentially Future Versions
 
 Dungeon cracking, fungus cracking don't work anymore.
 
@@ -48,33 +46,35 @@ Go to the config menu via "/seed gui" and make sure that Emeralds, Gateways, Bio
 For cracking, you now need to find 5 structures from the listed ones:\
 Desert pyramids, Jungle temples, Witch huts, Shipwrecks, Igloos, Pillager Outposts
 
-Any combination is valid. 例如：3個沉船、1坐金字塔和1個金字塔。 You can track your process with "/seed data bits" (look at the bits count for liftable structures) A structure is found when there is an outline around it. After you get enough, the cracking process starts automatically. This process takes around 1-5 mins. The mod may ask you to find additional structures after this. It's more likely to happen with fewer bits and structures of the same type. After reducing your structure seeds, the mod will brute force your world seed via dungeon positions or hashed seed.
+Any combination is valid. For example: 3 shipwrecks, 1 pyramid and 1 igloo. You can track your process with "/seed data bits" (look at the bits count for liftable structures) A structure is found when there is an outline around it. After you get enough, the cracking process starts automatically. This process takes around 1-5 mins. The mod may ask you to find additional structures after this. It's more likely to happen with fewer bits and structures of the same type. After reducing your structure seeds, the mod will brute force your world seed via dungeon positions or hashed seed.
 
   ### Supported Structures
     - Ocean Monument
-    - 末地之城
+    - End City
     - Buried Treasure
-    - 沙漠神殿
-    - 叢林神廟
-    - 沼澤小屋
-    - 沉船
-    - 冰屋
-    - 掠奪者前哨站
+    - Desert Pyramid
+    - Jungle Temple
+    - Swamp Hut
+    - Shipwreck
+    - Igloo
+    - Pillager Outpost
 
 
-  ### 支持的裝飾
-    - 地牢
-    - 終界折躍門
-    - 沙漠水井
-    - 綠寶石礦
-    - 诡异真菌
 
-## 指令
+  ### Supported Decorators
+    - Dungeon
+    - End Gateway
+    - Desert Well
+    - Emerald Ore
+    - Warped Fungus
+
+## Commands
 
   ### GUI Command
   - `/seed gui`
 
   Opens the config gui where you can modify settings like the server mc-version, all finders, database and rendermode. There are command alternatives for most of this, but they should'nt be used anymore.
+
 
 
   ### Finder Reload Command
@@ -83,7 +83,8 @@ Any combination is valid. 例如：3個沉船、1坐金字塔和1個金字塔。
   Rescans the loaded Chunks to find structures that weren't found before.
 
 
-  ### 數據指令
+
+  ### Data Command
   - `/seed data clear`
 
   Clears all the collected data without requiring a relog. This is useful for multi-world servers.
@@ -98,10 +99,12 @@ Any combination is valid. 例如：3個沉船、1坐金字塔和1個金字塔。
 
 
 
-  ### 破解器指令
+
+  ### Debug Command
   - `/seed cracker debug`
 
-  顯示調試信息
+  Additional info is shown
+
 
 
   ### Database Command
@@ -109,13 +112,13 @@ Any combination is valid. 例如：3個沉船、1坐金字塔和1個金字塔。
 
   Opens a [google sheet](https://docs.google.com/spreadsheets/d/1tuQiE-0leW88em9OHbZnH-RFNhVqgoHhIt9WQbeqqWw/edit?usp=sharing) that is maintained by the mod
 
-## 影片教學
+## Video Tutorials
 
 Neil's:
 - [1.15](https://youtu.be/1ChmLi9og8Q)
 - [1.16](https://youtu.be/aUuPSZVPH8E)
 
-为了破解你现在需要找到下列结构中至少 5 个：
+Mine:
 - [Dungeon cracking & end pillar cracking](https://youtu.be/8ytfZ2MXosY)
 - [Nether cracking](https://youtu.be/HKjwgofhKs4)
 - [Structure cracking](https://www.youtu.be/UXVrBaOR8H0)
@@ -123,13 +126,13 @@ Neil's:
 
 ## Setting up the Workspace
 
-沙漠神殿、丛林神殿、女巫小屋、沉船、雪屋、掠夺者前哨站。
+-Clone the repository.
 
--运行 `gradlew genSources <idea|eclipse>`.
+-Run `gradlew genSources <idea|eclipse>`.
 
 ## Building the Mod
 
--在 `build.gradle` 和 `fabric.mod.json` 里更新版本.
+-Update the version in `build.gradle` and `fabric.mod.json`.
 
 -Run `gradlew build`.
 
