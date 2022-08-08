@@ -2,7 +2,9 @@
 
 ## Моя активность:
 
-Загрузите и установите [загрузчик fabric](https://fabricmc.net/use/)
+[中文](Language/READMEzh.md)
+
+[Русский](Language/READMEru.md)
 
 ## Установка
 
