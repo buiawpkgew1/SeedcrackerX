@@ -65,30 +65,30 @@
     - 末地折跃门
     - 沙漠水井
     - 绿宝石矿石
-    - 诡异菌
+    - 诡异真菌
 
-## 设置工作区
+## 指令
 
-  地牢破解，诡异菌破解不再起作用。
+  ### GUI命令
   - `/seed gui`
 
   打开配置界面，如服务器mc版本、所有查找器、数据库和渲染模式。 其中大多数都有命令替代品，但不应再使用。
 
 
   ### 查找重新加载命令
-  - `再次搜索加已加载的区域`
+  - `/seed finder reload`
 
   重置已加载的模板片段以找到以前找不到的结构。
 
 
-  ### ### 数据指令
+  ### 数据命令
   - `/seed data clear`
 
   清除所有收集到的数据，而不需要重新日志。 这对多世界服务器有用。
 
   - `/seed data bits`
 
-  显示已收集多少信息。 普通比特用于终端支柱+结构碎裂。 冷却开始于32位。 液化比特用于提升结构碎裂。 戒严开始于40位。
+  显示已收集多少信息。 普通比特用于终端支柱+结构碎裂。 冷却开始于32位。 液化比特用于提升结构碎裂。 冷却开始于40位。
 
   - `/seed data restore`
 
@@ -96,10 +96,10 @@
 
 
 
-  ### 破解器指令
+  ### 调试 -> 命令
   - `/seed cracker debug`
 
-  显示调试信息
+  显示更多信息
 
 
   ### 数据库命令
@@ -107,27 +107,27 @@
 
   打开由模组维护的 [谷歌板](https://docs.google.com/spreadsheets/d/1tuQiE-0leW88em9OHbZnH-RFNhVqgoHhIt9WQbeqqWw/edit?usp=sharing)
 
-## 编译此Mod
+## 视频教程
 
-通过“/seed gui”进入配置菜单并确保绿宝石矿石、末地折跃门、生物群系、沙漠水井和诡异菌被禁用，因为它们没有更新并且可能提供错误的数据。
+Neil's:
 - [1.15](https://youtu.be/1ChmLi9og8Q)
 - [1.16](https://youtu.be/aUuPSZVPH8E)
 
-为了破解你现在需要找到下列结构中至少 5 个：
-- [Dungeon 崩溃 & 终端柱裂。](https://youtu.be/8ytfZ2MXosY)
+Mine:
+- [Dungeon 破解 & 终端柱裂。](https://youtu.be/8ytfZ2MXosY)
 - [地狱碎裂。](https://youtu.be/HKjwgofhKs4)
 - [结构崩溃了](https://www.youtu.be/UXVrBaOR8H0)
 
 
-## 贡献者
+## 设置工作区
 
-沙漠神殿、丛林神殿、女巫小屋、沉船、雪屋、掠夺者前哨站。
+-克隆当前仓库
 
--运行 `gradlew genSources <idea|eclipse>`.
+-运行 `gradlew genSource <idea|eclipse>`
 
 ## 构建模组
 
--在 `build.gradle` 和 `fabric.mod.json` 里更新版本.
+-更新 `build.gradle` 和 `fra.mod.json` 中的版本。
 
 -运行 `gradlew build`。
 
@@ -158,7 +158,7 @@
           }
       }
 
-- 告诉您的入口在哪里了 fram.mod.json
+- 告诉您的入口所在位置
   
       "entrypoints": {
         "main": [...],
