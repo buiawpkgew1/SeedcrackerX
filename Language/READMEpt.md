@@ -2,7 +2,7 @@
 
 ## Readme Language
 
-[中文](Language/READMEzh.md)| [Русский](Language/READMEru.md)| [繁體中文](Language/READMEzhtw.md)| [Suomi](Language/READMEfi.md)| [Français](Language/READMEfr.md)| [Deutsch](Language/READMEde.md)| [Nederlands](Language/READMEnl.md)| [Ελληνικά](Language/READMEel.md)| [Magyar](Language/READMEhu.md)| [Italiano](Language/READMEit.md)| [Norsk](Language/READMEno.md)| [Polski](Language/READMEpl.md)|
+[中文](./READMEzh.md) [Русский](./READMEru.md)
 
 ## I'm active on:
 
@@ -29,7 +29,7 @@ Since the mod is used by many people, I have decided to create a Google sheet fo
 
 ## Usage
 
-### 1.17.X and below
+### 1.17. X and below
 
 Run around in the world until the mod finds a dungeon. After the mod found one the cracking process starts automatically. If it doesn't give you a world seed, you may want to find another dungeon.
 
@@ -37,7 +37,7 @@ This mod also supports cracking the seed via:
 - [Structures and Endpillars](https://youtu.be/aUuPSZVPH8E?t=462)
 - [warped fungus](https://www.youtu.be/HKjwgofhKs4)
 
-### 1.18.X and Potentially Future Versions
+### 1.18. X and Potentially Future Versions
 
 Dungeon cracking, fungus cracking don't work anymore.
 
@@ -141,14 +141,14 @@ Mine:
       }
       
       dependencies {
-          implementation (include('com.github.19MisterX98.SeedcrackerX:seedcrackerx-api:master-SNAPSHOT')) {transitive = false}
+          implementation (include('com.github.19MisterX98. SeedcrackerX:seedcrackerx-api:master-SNAPSHOT')) {transitive = false}
       }
 
 - Add a class that implements the api interface
   
-      package misterx.myMod.seedManagemnet.SeedCrackerEP
+      package misterx.myMod.seedManagemnet. SeedCrackerEP
       
-      import kaptainwutax.seedcrackerX.api.SeedCrackerAPI;
+      import kaptainwutax.seedcrackerX.api. SeedCrackerAPI;
       
       public class SeedCrackerEP implements SeedCrackerAPI {
           @Override
@@ -165,7 +165,7 @@ Mine:
         "client": [...],
         "server": [...],
         "seedcrackerx": [
-          "misterx.myMod.seedManagemnet.SeedCrackerEP"
+          "misterx.myMod.seedManagemnet. SeedCrackerEP"
         ]
       },
 
