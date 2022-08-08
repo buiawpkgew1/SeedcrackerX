@@ -29,7 +29,7 @@ Since the mod is used by many people, I have decided to create a Google sheet fo
 
 ## Usage
 
-### 1.17.X and below
+### 1.17. X and below
 
 Run around in the world until the mod finds a dungeon. After the mod found one the cracking process starts automatically. If it doesn't give you a world seed, you may want to find another dungeon.
 
@@ -37,7 +37,7 @@ This mod also supports cracking the seed via:
 - [Structures and Endpillars](https://youtu.be/aUuPSZVPH8E?t=462)
 - [warped fungus](https://www.youtu.be/HKjwgofhKs4)
 
-### 1.18.X and Potentially Future Versions
+### 1.18. X and Potentially Future Versions
 
 Dungeon cracking, fungus cracking don't work anymore.
 
@@ -60,7 +60,6 @@ Any combination is valid. For example: 3 shipwrecks, 1 pyramid and 1 igloo. You 
     - Pillager Outpost
 
 
-
   ### Supported Decorators
     - Dungeon
     - End Gateway
@@ -76,12 +75,10 @@ Any combination is valid. For example: 3 shipwrecks, 1 pyramid and 1 igloo. You 
   Opens the config gui where you can modify settings like the server mc-version, all finders, database and rendermode. There are command alternatives for most of this, but they should'nt be used anymore.
 
 
-
   ### Finder Reload Command
   - `/seed finder reload`
 
   Rescans the loaded Chunks to find structures that weren't found before.
-
 
 
   ### Data Command
@@ -99,12 +96,10 @@ Any combination is valid. For example: 3 shipwrecks, 1 pyramid and 1 igloo. You 
 
 
 
-
   ### Debug Command
   - `/seed cracker debug`
 
   Additional info is shown
-
 
 
   ### Database Command
@@ -146,14 +141,14 @@ Mine:
       }
       
       dependencies {
-          implementation (include('com.github.19MisterX98.SeedcrackerX:seedcrackerx-api:master-SNAPSHOT')) {transitive = false}
+          implementation (include('com.github.19MisterX98. SeedcrackerX:seedcrackerx-api:master-SNAPSHOT')) {transitive = false}
       }
 
 - Add a class that implements the api interface
   
-      package misterx.myMod.seedManagemnet.SeedCrackerEP
+      package misterx.myMod.seedManagemnet. SeedCrackerEP
       
-      import kaptainwutax.seedcrackerX.api.SeedCrackerAPI;
+      import kaptainwutax.seedcrackerX.api. SeedCrackerAPI;
       
       public class SeedCrackerEP implements SeedCrackerAPI {
           @Override
@@ -170,7 +165,7 @@ Mine:
         "client": [...],
         "server": [...],
         "seedcrackerx": [
-          "misterx.myMod.seedManagemnet.SeedCrackerEP"
+          "misterx.myMod.seedManagemnet. SeedCrackerEP"
         ]
       },
 
