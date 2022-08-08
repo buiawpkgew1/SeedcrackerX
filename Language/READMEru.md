@@ -2,7 +2,7 @@
 
 ## Моя активность:
 
-[中文](Language/READMEzh.md)| [Русский](Language/READMEru.md)| [繁體中文](Language/READMEzhtw.md)| [Suomi](Language/READMEfi.md)| [Français](Language/READMEfr.md)| [Deutsch](Language/READMEde.md)| [Nederlands](Language/READMEnl.md)| [Ελληνικά](Language/READMEel.md)| [Magyar](Language/READMEhu.md)| [Italiano](Language/READMEit.md)| [Norsk](Language/READMEno.md)| [Polski](Language/READMEpl.md)|
+[中文](./Language/READMEzh.md)| [Русский](./Language/READMEru.md)| [繁體中文](./Language/READMEzhtw.md)| [Suomi](./Language/READMEfi.md)| [Français](./Language/READMEfr.md)| [Deutsch](./Language/READMEde.md)| [Nederlands](./Language/READMEnl.md)| [Ελληνικά](./Language/READMEel.md)| [Magyar](./Language/READMEhu.md)| [Italiano](./Language/READMEit.md)| [Norsk](./Language/READMEno.md)| [Polski](./Language/READMEpl.md)|
 
 ## Установка
 
