@@ -11,17 +11,17 @@ PS:请以后更新翻译的同学参照en_us.json改的地方并在同样的位�
 
 ## 使用方法
 
-Download and install the [fabric mod loader](https://fabricmc.net/use/)
+下载并安装 [fabric模组加载器](https://fabricmc.net/use/)
 
 ### 官方启动器/其他启动器
 
 下载并安装[Fabric](https://fabricmc.net/use/).
 
-#### Optional
+#### 選項
 
 ### MultiMC
 
-## 命令（已废弃，请使用GUI）.
+## Database
 
 Since the mod is used by many people, I have decided to create a Google sheet for server seeds. If you enable the database option in the config gui the mod will send cracked seeds from 10+ player servers directly to the Google sheet.
 
