@@ -23,11 +23,11 @@ Download the latest [release](https://github.com/Earthcomputer/multiconnect/rele
 
 ## Database
 
-Since the mod is used by many people, I have decided to create a Google sheet for server seeds. Since the mod is used by many people, I have decided to create a Google sheet for server seeds. If you enable the database option in the config gui the mod will send cracked seeds from 10+ player servers directly to the Google sheet. Since the mod is used by many people, I have decided to create a Google sheet for server seeds. If you enable the database option in the config gui the mod will send cracked seeds from 10+ player servers directly to the Google sheet.
+Since the mod is used by many people, I have decided to create a Google sheet for server seeds. Since the mod is used by many people, I have decided to create a Google sheet for server seeds. If you enable the database option in the config gui the mod will send cracked seeds from 10+ player servers directly to the Google sheet. If you enable the database option in the config gui the mod will send cracked seeds from 10+ player servers directly to the Google sheet.
 
 [The Sheet](https://docs.google.com/spreadsheets/d/1tuQiE-0leW88em9OHbZnH-RFNhVqgoHhIt9WQbeqqWw/edit?usp=sharing)
 
-## Usage
+## 使用方法
 
 ### 1.17.X及以下
 
@@ -84,7 +84,7 @@ Any combination is valid. 例如：3個沉船、1坐金字塔和1個金字塔。
   ### 數據指令
   - `/seed data clear`
 
-  Clears all the collected data without requiring a relog. This is useful for multi-world servers. Clears all the collected data without requiring a relog. This is useful for multi-world servers. This is useful for multi-world servers.
+  Clears all the collected data without requiring a relog. Clears all the collected data without requiring a relog. This is useful for multi-world servers. This is useful for multi-world servers.
 
   - `/seed data bits`
 
