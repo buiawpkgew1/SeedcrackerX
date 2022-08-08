@@ -2,7 +2,8 @@
 
 ## Readme Language
 
-[中文](Language/READMEzh.md) :flag_cn: 
+[中文](Language/READMEzh.md)
+
 [Русский](Language/READMEru.md)
 
 ## I'm active on:
