@@ -1,80 +1,81 @@
-# SeedCrackerX [![Github 所有版本](https://img.shields.io/github/downloads/19MisterX98/SeedCrackerX/total.svg)]
+# SeedCrackerX [![Github All Releases](https://img.shields.io/github/downloads/19MisterX98/SeedCrackerX/total.svg)]
 
-## Discord
+## 语言选择
 
-PS:请以后更新翻译的同学参照en_us.json改的地方并在同样的位置添加，让后人修改时更方便。
+[中文](./READMEzh.md) [Русский](./READMEru.md)
+
+## 我活动于：
+
+- [我的 Discord](https://discord.gg/JRmHzqQYfp)
+- [油管（视频网站）](https://www.youtube.com/channel/UCby9ZxEjJCqmccQGF3GSYlA)
 
 ## 安装
 
-- [Discord](https://discord.gg/JRmHzqQYfp)
-- [油管（视频网站）](https://www.youtube.com/channel/UCby9ZxEjJCqmccQGF3GSYlA)
-
-## 使用方法
-
 下载并安装 [fabric模组加载器](https://fabricmc.net/use/)
 
-### 官方启动器/其他启动器
+下载SeedCrackerX最新的 [版本或预发布](https://github.com/19MisterX98/SeedCrackerX/releases)
 
-下载并安装[Fabric](https://fabricmc.net/use/).
+将.jar文件放入您的模组目录中，或者是为了原版启动器的 %appdata%/.minecraft/mods/文件夹或者是您自己的 MultiMC 实例文件夹。
 
 #### 可选
 
-### MultiMC
+下载最新的 [版本的 MultiConnect 到 MC 版本上的服务器连接](https://github.com/Earthcomputer/multiconnect/releases)
 
-## 命令（已废弃，请使用GUI）.
+## 数据库设置
 
 由于这个模组已被许多人使用，我已决定创建一个谷歌的服务器种子。 如果您在配置界面启用数据库选项，模组将直接将10+个玩家服务器的破解种子发送到Google表中。
 
 [工作表](https://docs.google.com/spreadsheets/d/1tuQiE-0leW88em9OHbZnH-RFNhVqgoHhIt9WQbeqqWw/edit?usp=sharing)
 
-## 视频教程
+## 使用
 
 ### 1.17.X及以下
 
-在这个世界上跑来跑去，直到Mod找到一个地牢。 当Mod找到一个地牢后，破解过程就会自动开始。 如果它没有获取世界种子，你可能需要找另一个地牢。
+在世界各地运行，直到模组找到一个垃圾。 在模组找到一个后，破解过程自动开始。 如果它没有给你一个世界种子，你可能想要找到另一个地牢。
 
-下载 Mod Menu 最新[发布版](https://www.curseforge.com/minecraft/mc-mods/modmenu/files)
+这个模组还支持裂种子：
 - [结构和末尾柱子](https://youtu.be/aUuPSZVPH8E?t=462)
-- [Warped Fungus(诡异菌)](https://www.youtu.be/HKjwgofhKs4)
+- [诡异菌](https://www.youtu.be/HKjwgofhKs4)
 
-### 1.18.X及未来版本
+### 1.18.X 和未来潜在版本
 
-下载 Fabric API 最新[发布版](https://www.curseforge.com/minecraft/mc-mods/fabric-api/files)
+邓珠破裂，真菌打碎已不再起作用。
 
-把.jar文件放在你的mods目录下, 或者是%appdata%/.minecraft/mods/文件夹, 用于官方启动器, 或者是你自己的MultiMC实例文件夹.
+通过"/seed gui"进入配置菜单，确保绿宝石、网关、生物群落， 沙漠水井和经燃的真菌被禁用，因为它们没有更新，可能会提供错误的数据。
 
-#### 可选
+为了打碎，你现在需要从上面列出的结构中找到5个结构：\
+沙漠金字塔，丛林模板，女巫小屋，船难，Igloos，Pillager前哨。
 
-任何组合都是有效的。 例如：3 艘沉船、1 座金字塔和 1 座冰屋。 您可以使用“/seed data bits”查看您的进程。 在你得到足够的数据后，破解过程会自动开始。 这个过程需要1-5分钟左右。 在这之后, 模组可能会要求你找到其他结构。 在同一类型的比特和结构较少的情况下更可能发生这种情况。 在减少你的结构种子后，这个模组会通过粪便位置或哈希的种子使你的世界种子变得更猛烈。
+任何组合都是有效的。 例如：3个沉船、1坐金字塔和1个金字塔。 您可以用"/seed data bits"跟踪您的进程(查看可提升结构的 bits 计数) 当它周围有一个轮廓时发现一个结构。 在你得到足够的数据后，破解过程会自动开始。 这个过程需要1-5分钟左右。 在这之后, 模组可能会要求你找到其他结构。 在同一类型的比特和结构较少的情况下更可能发生这种情况。 在减少你的结构种子后，这个模组会通过粪便位置或哈希的种子使你的世界种子变得更猛烈。
 
-  ### 模组安装
-    - Ocean Monument(海底神殿)
-    - End City(末地城)
-    - Buried Treasure(埋藏的宝藏)
-    - Desert Pyramid(沙漠神殿)
-    - Jungle Temple(丛林神庙)
-    - Swamp Hut(沼泽小屋)
-    - Shipwreck(沉船)
+  ### 支持的结构
+    - 海底神殿
+    - 末地城
+    - 埋藏的宝藏
+    - 沙漠神殿
+    - 丛林神庙
+    - 沼泽小屋
+    - 沉船
     - 冰屋
     - 掠夺者前哨站
 
 
   ### 支持的装饰
-    - Dungeon(地牢)
-    - End Gateway(地牢)
-    - Desert Well(沙漠水井)
-    - Emerald Ore(绿宝石矿石)
+    - 地牢
+    - 末地折跃门
+    - 沙漠水井
+    - 绿宝石矿石
     - 诡异菌
 
 ## 设置工作区
 
   地牢破解，诡异菌破解不再起作用。
-  - `/seed cracker <ON/OFF>`
+  - `/seed gui`
 
   打开配置界面，如服务器mc版本、所有查找器、数据库和渲染模式。 其中大多数都有命令替代品，但不应再使用。
 
 
-  ### `/seed finder reload`
+  ### 查找重新加载命令
   - `再次搜索加已加载的区域`
 
   重置已加载的模板片段以找到以前找不到的结构。
@@ -128,7 +129,7 @@ PS:请以后更新翻译的同学参照en_us.json改的地方并在同样的位�
 
 -在 `build.gradle` 和 `fabric.mod.json` 里更新版本.
 
-### 支持的结构
+-运行 `gradlew build`。
 
 ## 其他模组的 API
 
@@ -145,7 +146,17 @@ PS:请以后更新翻译的同学参照en_us.json改的地方并在同样的位�
 
 - 添加实现api接口的类
   
-      下载 SeedCrackerX 最新<a href="https://github.com/19MisterX98/SeedCrackerX/releases">发布版</a>
+      package misterx.myMod.seedManagemnet.SeedCrackerEP
+      
+      import kaptainwutax.seedcrackerX.api.SeedCrackerAPI;
+      
+      public class SeedCrackerEP implements SeedCrackerAPI {
+          @Override
+          public void pushWorldSeed(long seed) {
+              //do something
+              Foo.bar(seed)
+          }
+      }
 
 - 告诉您的入口在哪里了 fram.mod.json
   
@@ -160,12 +171,12 @@ PS:请以后更新翻译的同学参照en_us.json改的地方并在同样的位�
 
 ## 贡献者
 
-这个mod的命令前缀是/seed.
+[KaptainWutax](https://github.com/KaptainWutax) - 作者
 
-### 渲染命令 -`/seed render outlines <ON/OFF/XRAY>`
+[neil](https://www.youtube.com/watch?v=aUuPSZVPH8E) - 视频教程
 
 [Nekzuris](https://github.com/Nekzuris) - README
 
-### 搜索器命令 -`/seed finder type <FEATURE_TYPE> (ON/OFF)`
+[19MisterX98](https://www.youtube.com/channel/UCby9ZxEjJCqmccQGF3GSYlA) - 这个派生的
 
-`/seed finder category (BIOMES/ORES/OTHERS/STRUCTURES) (ON/OFF)`
+[farkon00](https://github.com/farkon00) - 俄语版README
