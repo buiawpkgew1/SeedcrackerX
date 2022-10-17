@@ -113,6 +113,11 @@ Neil's:
 - [1.15](https://youtu.be/1ChmLi9og8Q)
 - [1.16](https://youtu.be/aUuPSZVPH8E)
 
+
+Dyiing's
+- [1.18](https://www.youtube.com/watch?v=tKeEyx7jIE4)
+
+
 为了破解你现在需要找到下列结构中至少 5 个：
 - [Dungeon cracking & end pillar cracking](https://youtu.be/8ytfZ2MXosY)
 - [Nether cracking](https://youtu.be/HKjwgofhKs4)
