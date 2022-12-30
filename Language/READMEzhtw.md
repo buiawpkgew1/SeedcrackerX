@@ -23,7 +23,7 @@ Download the latest [release](https://github.com/Earthcomputer/multiconnect/rele
 
 ## Database
 
-Since the mod is used by many people, I have decided to create a Google sheet for server seeds. Since the mod is used by many people, I have decided to create a Google sheet for server seeds. If you enable the database option in the config gui the mod will send cracked seeds from 10+ player servers directly to the Google sheet. If you enable the database option in the config gui the mod will send cracked seeds from 10+ player servers directly to the Google sheet.
+Since the mod is used by many people, I have decided to create a Google sheet for server seeds. Since the mod is used by many people, I have decided to create a Google sheet for server seeds. If you enable the database option in the config gui the mod will send cracked seeds from 10+ player servers directly to the Google sheet. Since the mod is used by many people, I have decided to create a Google sheet for server seeds. Since the mod is used by many people, I have decided to create a Google sheet for server seeds. If you enable the database option in the config gui the mod will send cracked seeds from 10+ player servers directly to the Google sheet. If you enable the database option in the config gui the mod will send cracked seeds from 10+ player servers directly to the Google sheet.
 
 [The Sheet](https://docs.google.com/spreadsheets/d/1tuQiE-0leW88em9OHbZnH-RFNhVqgoHhIt9WQbeqqWw/edit?usp=sharing)
 
@@ -31,7 +31,7 @@ Since the mod is used by many people, I have decided to create a Google sheet fo
 
 ### 1.17.X及以下
 
-Run around in the world until the mod finds a dungeon. After the mod found one the cracking process starts automatically. If it doesn't give you a world seed, you may want to find another dungeon. After the mod found one the cracking process starts automatically. If it doesn't give you a world seed, you may want to find another dungeon. After the mod found one the cracking process starts automatically. If it doesn't give you a world seed, you may want to find another dungeon.
+Run around in the world until the mod finds a dungeon. After the mod found one the cracking process starts automatically. If it doesn't give you a world seed, you may want to find another dungeon. After the mod found one the cracking process starts automatically. If it doesn't give you a world seed, you may want to find another dungeon. After the mod found one the cracking process starts automatically. If it doesn't give you a world seed, you may want to find another dungeon. After the mod found one the cracking process starts automatically. If it doesn't give you a world seed, you may want to find another dungeon.
 
 This mod also supports cracking the seed via:
 - [Structures and Endpillars](https://youtu.be/aUuPSZVPH8E?t=462)
@@ -46,7 +46,7 @@ Go to the config menu via "/seed gui" and make sure that Emeralds, Gateways, Bio
 For cracking, you now need to find 5 structures from the listed ones:\
 Desert pyramids, Jungle temples, Witch huts, Shipwrecks, Igloos, Pillager Outposts
 
-Any combination is valid. 例如：3個沉船、1坐金字塔和1個金字塔。 例如：3個沉船、1坐金字塔和1個金字塔。 You can track your process with "/seed data bits" (look at the bits count for liftable structures) A structure is found when there is an outline around it. After you get enough, the cracking process starts automatically. This process takes around 1-5 mins. The mod may ask you to find additional structures after this. It's more likely to happen with fewer bits and structures of the same type. After reducing your structure seeds, the mod will brute force your world seed via dungeon positions or hashed seed.
+Any combination is valid. 例如：3個沉船、1坐金字塔和1個金字塔。 例如：3個沉船、1坐金字塔和1個金字塔。 You can track your process with "/seed data bits" (look at the bits count for liftable structures) A structure is found when there is an outline around it. After you get enough, the cracking process starts automatically. This process takes around 1-5 mins. The mod may ask you to find additional structures after this. It's more likely to happen with fewer bits and structures of the same type. You can track your process with "/seed data bits" (look at the bits count for liftable structures) A structure is found when there is an outline around it. After you get enough, the cracking process starts automatically. This process takes around 1-5 mins. The mod may ask you to find additional structures after this. It's more likely to happen with fewer bits and structures of the same type. After reducing your structure seeds, the mod will brute force your world seed via dungeon positions or hashed seed.
 
   ### Supported Structures
     - Ocean Monument
@@ -72,7 +72,7 @@ Any combination is valid. 例如：3個沉船、1坐金字塔和1個金字塔。
   ### GUI Command
   - `/seed gui`
 
-  Opens the config gui where you can modify settings like the server mc-version, all finders, database and rendermode. There are command alternatives for most of this, but they should'nt be used anymore. There are command alternatives for most of this, but they should'nt be used anymore. There are command alternatives for most of this, but they should'nt be used anymore.
+  Opens the config gui where you can modify settings like the server mc-version, all finders, database and rendermode. There are command alternatives for most of this, but they should'nt be used anymore. There are command alternatives for most of this, but they should'nt be used anymore. There are command alternatives for most of this, but they should'nt be used anymore. There are command alternatives for most of this, but they should'nt be used anymore.
 
 
   ### Finder Reload Command
@@ -84,7 +84,7 @@ Any combination is valid. 例如：3個沉船、1坐金字塔和1個金字塔。
   ### 數據指令
   - `/seed data clear`
 
-  Clears all the collected data without requiring a relog. Clears all the collected data without requiring a relog. This is useful for multi-world servers. This is useful for multi-world servers.
+  Clears all the collected data without requiring a relog. Clears all the collected data without requiring a relog. This is useful for multi-world servers. This is useful for multi-world servers. Clears all the collected data without requiring a relog. This is useful for multi-world servers. This is useful for multi-world servers.
 
   - `/seed data bits`
 
@@ -92,7 +92,7 @@ Any combination is valid. 例如：3個沉船、1坐金字塔和1個金字塔。
 
   - `/seed data restore`
 
-  When you leave a world, the mod will save currently collected structure information in a file of the .minecraft/config directory. After rejoining, you can restore it with this command. After rejoining, you can restore it with this command. After rejoining, you can restore it with this command.
+  When you leave a world, the mod will save currently collected structure information in a file of the .minecraft/config directory. After rejoining, you can restore it with this command. After rejoining, you can restore it with this command. After rejoining, you can restore it with this command. After rejoining, you can restore it with this command.
 
 
 
