@@ -19,11 +19,11 @@
 
 #### 可选
 
-下载最新的 [版本的 MultiConnect 到 MC 版本上的服务器连接](https://github.com/Earthcomputer/multiconnect/releases)
+Download the latest release of [Multiconnect](https://github.com/Earthcomputer/multiconnect/releases) or [ViaFabric](https://modrinth.com/mod/viafabric) to connect to servers on lower MC versions
 
 ## 数据库设置
 
-由于这个模组已被许多人使用，我已决定创建一个谷歌的服务器种子。 如果您在配置界面启用数据库选项，模组将直接将10+个玩家服务器的破解种子发送到Google表中。
+由于这个模组已被许多人使用，我已决定创建一个谷歌的服务器种子。 如果您在配置界面启用数据库选项，模组将直接将10+个玩家服务器的破解种子发送到Google表中。 You also need a minecraft license
 
 [工作表](https://docs.google.com/spreadsheets/d/1tuQiE-0leW88em9OHbZnH-RFNhVqgoHhIt9WQbeqqWw/edit?usp=sharing)
 
@@ -37,7 +37,7 @@
 - [结构和末尾柱子](https://youtu.be/aUuPSZVPH8E?t=462)
 - [诡异菌](https://www.youtu.be/HKjwgofhKs4)
 
-### 1.18.X 和未来潜在版本
+### 1.18.X and higher
 
 邓珠破裂，真菌打碎已不再起作用。
 
@@ -69,7 +69,11 @@
 
 ## 指令
 
-  ### GUI命令
+ For 1.19.3 use command
+ - `/seedcracker`
+
+
+  ### GUI Command
   - `/seed gui`
 
   打开配置界面，如服务器mc版本、所有查找器、数据库和渲染模式。 其中大多数都有命令替代品，但不应再使用。
