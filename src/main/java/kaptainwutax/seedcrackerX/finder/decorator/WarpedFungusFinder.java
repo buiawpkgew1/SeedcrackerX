@@ -12,7 +12,6 @@ import kaptainwutax.seedcrackerX.render.Cuboid;
 import kaptainwutax.seedcrackerX.util.BiomeFixer;
 import net.minecraft.block.Block;
 import net.minecraft.block.Blocks;
-import net.minecraft.block.Material;
 import net.minecraft.util.math.BlockBox;
 import net.minecraft.util.math.BlockPos;
 import net.minecraft.util.math.ChunkPos;
@@ -108,9 +107,8 @@ public class WarpedFungusFinder extends BlockFinder {
                                 dataCounter++;
                                 bigTrunkData.add(1);
 
-                            } else if (block.getDefaultState().getMaterial() == Material.PLANT || block.getDefaultState().getMaterial() == Material.SOLID_ORGANIC || block == Blocks.AIR) {
+                            } else if (isNetherPlant(block) || block == Blocks.WARPED_WART_BLOCK || block == Blocks.SHROOMLIGHT || block == Blocks.AIR) {
                                 bigTrunkData.add(0);
-
                             }
                         }
                     }
@@ -159,7 +157,7 @@ public class WarpedFungusFinder extends BlockFinder {
                         if (big && -2 < x && x < 2 && -2 < z && z < 2) continue;
                         if (x == 0 && z == 0) continue;
                         Block block = this.world.getBlockState(pos.add(x, y, z)).getBlock();
-                        if (block.getDefaultState().getMaterial() != Material.PLANT && block != Blocks.AIR)
+                        if (isNetherPlant(block) && block != Blocks.AIR)
                             return false;
                     }
                 }
@@ -178,7 +176,7 @@ public class WarpedFungusFinder extends BlockFinder {
                             //System.out.println(i-y+1+" at x: "+ x+" z: "+z);
                             isVine = true;
                             dataCounter++;
-                        } else if (block.getDefaultState().getMaterial() != Material.PLANT && block != Blocks.AIR || isVine) {
+                        } else if (isNetherPlant(block) && block != Blocks.AIR || isVine) {
                             return false;
                         } else if (y == i) {
                             vine.add(0);
@@ -278,6 +276,12 @@ public class WarpedFungusFinder extends BlockFinder {
         if (deco == 0) return 1;
         //found not enough
         return 2;
+    }
+
+    private boolean isNetherPlant(Block block) {
+        return block == Blocks.TWISTING_VINES || block == Blocks.TWISTING_VINES_PLANT || block == Blocks.NETHER_SPROUTS ||
+                block == Blocks.WARPED_ROOTS || block == Blocks.WARPED_FUNGUS || block == Blocks.CRIMSON_FUNGUS ||
+                block == Blocks.CRIMSON_ROOTS;
     }
 
     @Override

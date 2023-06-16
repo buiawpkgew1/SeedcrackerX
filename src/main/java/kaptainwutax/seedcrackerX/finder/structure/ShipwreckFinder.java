@@ -157,7 +157,7 @@ public class ShipwreckFinder extends BlockFinder {
             mutablePos.move(direction.rotateYClockwise(), chestX - 4);
             mutablePos.move(direction, -chestZ - 1);
 
-            if (this.world.getBlockState(mutablePos).getMaterial() == Material.WOOD) {
+            if (this.world.getBlockState(mutablePos).isIn(BlockTags.AXE_MINEABLE)) {
                 if (length == 17) { // sideways
                     chestZ += 11;
                     length += 11;
