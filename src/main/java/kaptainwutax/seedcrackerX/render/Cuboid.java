@@ -49,12 +49,12 @@ public class Cuboid extends Renderer {
     }
 
     @Override
-    public void render(MatrixStack matrixStack, VertexConsumer vertexConsumer, Vec3d cameraPos) {
+    public void render(MatrixStack.Entry matrix4f, VertexConsumer vertexConsumer, Vec3d cameraPos) {
         if (this.start == null || this.size == null || this.edges == null) return;
 
         for (Line edge : this.edges) {
             if (edge == null) continue;
-            edge.render(matrixStack, vertexConsumer, cameraPos);
+            edge.render(matrix4f, vertexConsumer, cameraPos);
         }
     }
 

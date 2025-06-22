@@ -88,8 +88,8 @@ public abstract class Finder {
         return false;
     }
 
-    public void render(MatrixStack matrixStack, VertexConsumer vertexConsumer, Vec3d cameraPos) {
-        this.renderers.forEach(renderer -> renderer.render(matrixStack, vertexConsumer, cameraPos));
+    public void render(MatrixStack.Entry matrix4f, VertexConsumer vertexConsumer, Vec3d cameraPos) {
+        this.renderers.forEach(renderer -> renderer.render(matrix4f, vertexConsumer, cameraPos));
     }
 
     public boolean isUseless() {

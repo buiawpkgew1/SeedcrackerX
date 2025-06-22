@@ -2,10 +2,10 @@
 
 ## Readme Language
 
-[中文](./READMEzh.md)
-[Русский](./READMEru.md)
-[Українська](./READMEuk.md)
-[Türkçe](./READMEtr.md)
+[中文](readmes/READMEzh.md)
+[Русский](readmes/READMEru.md)
+[Українська](readmes/READMEuk.md)
+[Türkçe](readmes/READMEtr.md)
 
 ## I'm active on:
 
@@ -16,7 +16,14 @@
 
 | Minecraft Version | SeedCrackerX version                                                                                       | Dependencies                                                                                                                                                                                   |
 |-------------------|------------------------------------------------------------------------------------------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| 1.20.2+           | [2.14.5](https://github.com/19MisterX98/SeedcrackerX/releases/download/prerelease/seedcrackerX-2.14.5.jar) | [Fabric mod loader 0.14.0+](https://fabricmc.net/use/)                                                                                                                                         |
+| 1.21.6            | [2.15.4](https://github.com/19MisterX98/SeedcrackerX/releases/download/prerelease/seedcrackerX-2.15.4.jar) | [Fabric mod loader 0.14.0+](https://fabricmc.net/use/)                                                                                                                                         |
+| 1.21.5            | [2.15.3](https://github.com/19MisterX98/SeedcrackerX/releases/download/2.15.3/seedcrackerX-2.15.3.jar)     | [Fabric mod loader 0.14.0+](https://fabricmc.net/use/)                                                                                                                                         |
+| 1.21.4            | [2.15.2](https://github.com/19MisterX98/SeedcrackerX/releases/download/2.15.2/seedcrackerX-2.15.2.jar)     | [Fabric mod loader 0.14.0+](https://fabricmc.net/use/)                                                                                                                                         |
+| 1.21.2-1.21.3     | [2.15.1](https://github.com/19MisterX98/SeedcrackerX/releases/download/2.15.1/seedcrackerX-2.15.1.jar)     | [Fabric mod loader 0.14.0+](https://fabricmc.net/use/)                                                                                                                                         |
+| 1.21-1.21.1       | [2.15.0](https://github.com/19MisterX98/SeedcrackerX/releases/download/2.15.0/seedcrackerX-2.15.0.jar)     | [Fabric mod loader 0.14.0+](https://fabricmc.net/use/)                                                                                                                                         |
+| 1.20.6            | [2.14.7](https://github.com/19MisterX98/SeedcrackerX/releases/download/2.14.7/seedcrackerX-2.14.7.jar)     | [Fabric mod loader 0.14.0+](https://fabricmc.net/use/)                                                                                                                                         |
+| 1.20.4            | [2.14.6](https://github.com/19MisterX98/SeedcrackerX/releases/download/2.14.6/seedcrackerX-2.14.6.jar)     | [Fabric mod loader 0.14.0+](https://fabricmc.net/use/)                                                                                                                                         |
+| 1.20.2            | [2.14.5](https://github.com/19MisterX98/SeedcrackerX/releases/download/2.14.5/seedcrackerX-2.14.5.jar)     | [Fabric mod loader 0.14.0+](https://fabricmc.net/use/)                                                                                                                                         |
 | 1.20-1.20.1       | [2.14.4](https://github.com/19MisterX98/SeedcrackerX/releases/download/2.14.4/seedcrackerX-2.14.4.jar)     | [Fabric mod loader 0.14.0+](https://fabricmc.net/use/)                                                                                                                                         |
 | 1.19.4            | [2.14.2](https://github.com/19MisterX98/SeedcrackerX/releases/download/2.14.2/seedcrackerX-2.14.2.jar)     | [Fabric mod loader 0.14.0+](https://fabricmc.net/use/)                                                                                                                                         |
 | 1.19.3            | [2.13.1](https://github.com/19MisterX98/SeedcrackerX/releases/download/2.13.1/seedcrackerX-2.13.1.jar)     | [Fabric mod loader 0.14.0+](https://fabricmc.net/use/)                                                                                                                                         |
@@ -65,7 +72,7 @@ You have to find 5 (or more) end cities or end gateways and then return to the c
 
 #### Video guides:
 - [Structures and Endpillars](https://youtu.be/aUuPSZVPH8E?t=462)
-- [warped fungus](https://www.youtu.be/HKjwgofhKs4)
+- [warped fungus](https://youtu.be/HKjwgofhKs4)
 
   ### Supported Decorators
     - Dungeon
@@ -91,7 +98,7 @@ For cracking, you now need to get 40 bits of liftable structures and 32 regular 
     - Jungle Temple - 9 regular and liftable bits
     - Swamp Hut - 9 regular and liftable bits
     - Shipwreck - 8 regular and liftable bits
-    - Pillager Outpost - 9 lifable bits
+    - Pillager Outpost - 9 liftable bits
     - Ocean Monument - 9 regular bits
 
 Any combination is valid. For example: 3 shipwrecks, 1 pyramid and 1 igloo.
@@ -121,7 +128,7 @@ If version of your mod is older than 2.13.1, use prefix
   - `/seedcracker gui`
   
   Opens the config gui where you can modify settings like the server mc-version, all finders, database and rendermode.
-  There are command alternatives for most of this, but they should'nt be used anymore.
+  There are command alternatives for most of this, but they shouldn't be used anymore.
   
   ### Finder Reload Command
   - `/seedcracker finder reload`
@@ -167,7 +174,7 @@ Dyiing's
 Mine:
 - [Dungeon cracking & end pillar cracking](https://youtu.be/8ytfZ2MXosY)
 - [Nether cracking](https://youtu.be/HKjwgofhKs4)
-- [Structure cracking](https://www.youtu.be/UXVrBaOR8H0)
+- [Structure cracking](https://youtu.be/UXVrBaOR8H0)
 
 
 ## Setting up the Workspace

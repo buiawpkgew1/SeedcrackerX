@@ -26,9 +26,6 @@ public class StructureSave {
     private static final Logger logger = LoggerFactory.getLogger("structureSave");
 
     public static final Path saveDir = Paths.get(FabricLoader.getInstance().getConfigDir().toFile().toString(), "SeedCrackerX saved structures");
-    private static final List<RegionStructure<?,?>> structureTypes = List.of(Features.IGLOO,Features.BURIED_TREASURE,
-            Features.PILLAGER_OUTPOST,Features.DESERT_PYRAMID, Features.JUNGLE_PYRAMID, Features.END_CITY,
-            Features.MONUMENT, Features.SHIPWRECK, Features.SWAMP_HUT);
 
     public static void saveStructures(ScheduledSet<DataStorage.Entry<Feature.Data<?>>> baseData) {
         try {
@@ -66,7 +63,7 @@ public class StructureSave {
                     String[] info = line.split(";");
                     if (info.length != 3) continue;
                     String structureName = info[0];
-                    for (RegionStructure<?,?> idk : structureTypes) {
+                    for (RegionStructure<?,?> idk : Features.STRUCTURE_TYPES) {
                         if (structureName.equals(idk.getName())) {
                             result.add(idk.at(Integer.parseInt(info[1]), Integer.parseInt(info[2])));
                             break;
@@ -75,7 +72,7 @@ public class StructureSave {
                 }
             }
         } catch (FileNotFoundException e) {
-            logger.warn("seedcracker couldn't find the structures file", e);
+            logger.warn("seedcracker couldn't find a structures file");
             return result;
         } catch (IOException e) {
             logger.error("seedcracker couldn't load previous structures", e);

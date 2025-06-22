@@ -26,14 +26,15 @@ public class Line extends Renderer {
     }
 
     @Override
-    public void render(MatrixStack matrixStack, VertexConsumer vertexConsumer, Vec3d cameraPos) {
-        this.putVertex(vertexConsumer, matrixStack, this.start, cameraPos);
-        this.putVertex(vertexConsumer, matrixStack, this.end, cameraPos);
+    public void render(MatrixStack.Entry matrix4f, VertexConsumer vertexConsumer, Vec3d cameraPos) {
+        Vec3d normal = this.end.subtract(this.start).normalize();
+        this.putVertex(vertexConsumer, matrix4f, this.start,normal, cameraPos);
+        this.putVertex(vertexConsumer, matrix4f, this.end, normal, cameraPos);
     }
 
-    protected void putVertex(VertexConsumer vertexConsumer, MatrixStack matrixStack, Vec3d pos, Vec3d cameraPos) {
+    protected void putVertex(VertexConsumer vertexConsumer, MatrixStack.Entry matrix4f, Vec3d pos, Vec3d normal, Vec3d cameraPos) {
         vertexConsumer.vertex(
-                matrixStack.peek().getPositionMatrix(),
+                matrix4f,
                 (float) (pos.x - cameraPos.x),
                 (float) (pos.y - cameraPos.y),
                 (float) (pos.z - cameraPos.z)
@@ -42,7 +43,12 @@ public class Line extends Renderer {
                 this.color.getFGreen(),
                 this.color.getFBlue(),
                 1.0F
-        ).next();
+        ).normal(
+                matrix4f,
+                (float) normal.getX(),
+                (float) normal.getY(),
+                (float) normal.getZ()
+        );
     }
 
     @Override

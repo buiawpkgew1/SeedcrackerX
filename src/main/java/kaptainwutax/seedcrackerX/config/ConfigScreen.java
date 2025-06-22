@@ -44,7 +44,7 @@ public class ConfigScreen {
         ConfigBuilder builder = ConfigBuilder.create()
                 .setParentScreen(parent)
                 .setTitle(Text.translatable("title"))
-                .setDefaultBackgroundTexture(new Identifier("minecraft:textures/block/blackstone.png"))
+                .setDefaultBackgroundTexture(Identifier.of("minecraft:textures/block/blackstone.png"))
                 .setTransparentBackground(true);
         ConfigEntryBuilder eb = builder.entryBuilder();
 
@@ -56,8 +56,8 @@ public class ConfigScreen {
                 .setSaveConsumer(val -> config.databaseSubmits = val).build());
         settings.addEntry(eb.startBooleanToggle(Text.translatable("settings.hideNameDatabase"), config.anonymusSubmits).setSaveConsumer(val -> config.anonymusSubmits = val).build());
         settings.addEntry(eb.startTextDescription(Text.translatable("settings.openDatabase").styled(s -> s
-                .withClickEvent(new ClickEvent(ClickEvent.Action.OPEN_URL, DatabaseCommand.databaseURL))
-                .withHoverEvent(new HoverEvent(HoverEvent.Action.SHOW_TEXT, Text.literal("google sheet")))
+                .withClickEvent(new ClickEvent.OpenUrl(DatabaseCommand.DATABASE_URL))
+                .withHoverEvent(new HoverEvent.ShowText(Text.literal("google sheet")))
                 .withColor(Formatting.BLUE)
                 .withUnderline(true)
                 .withItalic(true)))
