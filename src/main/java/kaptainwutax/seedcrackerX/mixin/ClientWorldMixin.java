@@ -7,6 +7,7 @@ import net.minecraft.registry.DynamicRegistryManager;
 import net.minecraft.registry.RegistryKey;
 import net.minecraft.registry.RegistryKeys;
 import net.minecraft.registry.entry.RegistryEntry;
+import net.minecraft.text.Text;
 import net.minecraft.world.MutableWorldProperties;
 import net.minecraft.world.World;
 import net.minecraft.world.biome.Biome;
@@ -26,7 +27,7 @@ public abstract class ClientWorldMixin extends World {
     }
 
     @Inject(method = "disconnect", at = @At("HEAD"))
-    private void disconnect(CallbackInfo ci) {
+    private void disconnect(Text reasonText, CallbackInfo ci) {
         StructureSave.saveStructures(SeedCracker.get().getDataStorage().baseSeedData);
         SeedCracker.get().reset();
     }
